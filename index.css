@@ -1,0 +1,99 @@
+/* FORMATAÇÃO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0C0C0C;
+}
+
+.bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#container {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+/* FORMATAÇÃO CABEÇALHO */
+i {
+    padding-right: 24px;
+}
+
+h1 {
+    padding: 24px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+/* FORMATAÇÃO FORMULÁRIO */
+form {
+    display: flex;
+    justify-content: space-around
+
+}
+
+form input {
+    padding: 6px;
+    width: 250px;
+    font-weight:400;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #9B3922;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+form input:focus {
+    background-color: #9B3922;
+    transition: background 0.4s ease;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.8;
+}
+
+form button {
+    border: none;
+    background-color: #9B3922;
+    color: #fff;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #F2613F;
+}
+
+/* FORMATAÇÃO TABELA */
+table {
+    width: 100%;
+}
+
+thead th {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 24px;
+    font-size: 28px;
+}
+
+tbody td {
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid #9B3922;
+    padding: 12px;
+}
